@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Abp.Net.Identity.Domain.Shared": {
+      "path": "src/Abp.Net.Identity.Domain.Shared/Abp.Net.Identity.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.Domain": {
+      "path": "src/Abp.Net.Identity.Domain/Abp.Net.Identity.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.Application.Contracts": {
+      "path": "src/Abp.Net.Identity.Application.Contracts/Abp.Net.Identity.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.Application": {
+      "path": "src/Abp.Net.Identity.Application/Abp.Net.Identity.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.EntityFrameworkCore": {
+      "path": "src/Abp.Net.Identity.EntityFrameworkCore/Abp.Net.Identity.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.MongoDB": {
+      "path": "src/Abp.Net.Identity.MongoDB/Abp.Net.Identity.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.HttpApi": {
+      "path": "src/Abp.Net.Identity.HttpApi/Abp.Net.Identity.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.HttpApi.Client": {
+      "path": "src/Abp.Net.Identity.HttpApi.Client/Abp.Net.Identity.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Abp.Net.Identity.TestBase": {
+      "path": "test/Abp.Net.Identity.TestBase/Abp.Net.Identity.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Abp.Net.Identity.EntityFrameworkCore.Tests": {
+      "path": "test/Abp.Net.Identity.EntityFrameworkCore.Tests/Abp.Net.Identity.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Abp.Net.Identity.MongoDB.Tests": {
+      "path": "test/Abp.Net.Identity.MongoDB.Tests/Abp.Net.Identity.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Abp.Net.Identity.Domain.Tests": {
+      "path": "test/Abp.Net.Identity.Domain.Tests/Abp.Net.Identity.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Abp.Net.Identity.Application.Tests": {
+      "path": "test/Abp.Net.Identity.Application.Tests/Abp.Net.Identity.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Abp.Net.Identity.HttpApi.Host": {
+      "path": "host/Abp.Net.Identity.HttpApi.Host/Abp.Net.Identity.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Abp.Net.Identity.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Abp.Net.Identity.HttpApi.Client.ConsoleTestApp/Abp.Net.Identity.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Abp.Net.Identity.IdentityServer": {
+      "path": "host/Abp.Net.Identity.IdentityServer/Abp.Net.Identity.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Abp.Net.Identity.Host.Shared": {
+      "path": "host/Abp.Net.Identity.Host.Shared/Abp.Net.Identity.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Abp.Net</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\modules\identity\src\Abp.Net.Identity.Domain\Abp.Net.Identity.Domain.csproj" />
+    <ProjectReference Include="..\Abp.Net.Domain.Shared\Abp.Net.Domain.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyAbp.Abp.SettingUi.Domain" Version="1.6.2" />
+    <PackageReference Include="EasyAbp.Abp.Trees.Domain" Version="2.7.1" />
+    <PackageReference Include="EasyAbp.FileManagement.Domain" Version="2.0.3" />
+    <PackageReference Include="Volo.Abp.Emailing" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Domain" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.IdentityServer" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Domain" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain" Version="5.3.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="5.3.1" />
+  </ItemGroup>
+
+</Project>

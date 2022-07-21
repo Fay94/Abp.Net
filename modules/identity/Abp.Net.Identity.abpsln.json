@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Abp.Net.Identity": {
+      "path": "Abp.Net.Identity.abpmdl.json"
+    }
+  }
+}
